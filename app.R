@@ -13,7 +13,7 @@ stats <- data %>%
   summarise(
     Provincias = n_distinct(Province),
     Ciudades = n_distinct(City),
-    Hospitales = n_distinct(HealthCenter),
+    Hospitales = n_distinct(HealthCenter), 
     Pacientes = n_distinct(PatientID)
   )
 
